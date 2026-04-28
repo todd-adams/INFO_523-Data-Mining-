@@ -1,0 +1,20 @@
+# Clustering Stability in Healthcare Data
+
+This project evaluates how distance metric selection impacts clustering stability using  
+k-medoids clustering and bootstrap resampling.
+
+## Methods
+- Distance metrics: Euclidean, Manhattan, Cosine, Jaccard
+- Evaluation: Adjusted Rand Index (ARI)
+- Data: BRFSS (subset)
+
+## Key Finding
+Jaccard distance produced the most stable and reproducible clustering results.
+
+## Files
+- Notebook: INFO_523_Adamst_Final_Project_V18.ipynb
+- Supporting data files included
+
+## Dataset
+- the BRFSS dataset cannot be uploaded to Github because it's too large < 1GB.
+- The BRFSS dataset is available at https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024XPT.zip
